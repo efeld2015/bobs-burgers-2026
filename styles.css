@@ -1,0 +1,90 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    background: beige;
+  }
+header {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin-top: 30px;
+}
+  h2, .season, .ep {
+    font-family: 'Gloria Hallelujah', cursive;
+
+  }
+ 
+  .burgBtn {
+    margin-top: 25px;
+    width: 12%;
+    padding: 2px 2px 2px 2px;
+  }
+
+  .burgBtn:hover {
+    background: #f172a9;
+    box-shadow: 0 0 0 1px #fcdd60;
+    
+  }
+  .burgerMenu {
+    background:#4A4A4A;
+    color: white;
+    height: 250px;
+    width: 15%;
+    border: 10px solid #CB4154;
+    text-align: center;
+    align-items: center;
+    
+  }
+  
+  .statsSection {
+    background: #fcdd60;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 25px;
+  }
+
+  
+  p, .burgerMenu, .epNum {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+  }
+
+
+  h1, p, h2, a, h3 {
+    /*border: 2px solid red;*/
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+   .season, .ep {
+  padding: 20px;
+}
+  
+  #ep1 {
+    border-radius: 100%;
+  }
+  
+  #ep1:hover {
+    color: red;
+    transform: translateY(5px);
+  }
+  
+
+  footer {
+    background: #f172a9;
+    font-family: "Gloria Hallelujah", cursive;
+  }
+
+  .mainImg {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
