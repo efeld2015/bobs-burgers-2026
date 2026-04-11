@@ -7,8 +7,14 @@
   body {
     background: beige;
 
+
   }
-header {
+  
+  p {
+    font-size: 25px;
+  }
+  /* KEEP THIS CENTER ALIGNMENT */
+  header {
     display: flex;
     justify-content: center;
 }
@@ -17,14 +23,22 @@ section {
     margin-top: 30px;
 }
 
+/* KEEP THIS CENTER ALIGNMENT */ 
 h1 {
     font-size: 50px;
 }
+
   h1, .season, .ep {
     font-family: 'Gloria Hallelujah', cursive;
-
+    
   }
  
+  .dashboard-container {
+    display: flex;
+  }
+  /*.burgBtn-section {
+    */
+
   .burgBtn {
     margin-top: 25px;
     width: 12%;
@@ -32,15 +46,15 @@ h1 {
   }
 
   .burgBtn:hover {
-    background: #f172a9;
-    box-shadow: 0 0 0 1px #fcdd60;
-    
+    transform: scale(1.2);
   }
+
+  /* How to get blackboard to stay consistent size after clicking button? And Stats Board? */
   .burgerMenu {
     background:#4A4A4A;
     color: white;
-    height: 250px;
-    width: 15%;
+    min-height: 250px;
+    min-width: 70%;
     border: 10px solid #CB4154;
     text-align: center;
     align-items: center;
@@ -50,7 +64,8 @@ h1 {
   .statsSection {
     background: #fcdd60;
     border-radius: 10px;
-    width: 50%;
+   max-height: 250px;
+   max-width: 70%;
     margin-bottom: 25px;
     border: 10px solid #9ac7e8
   }
