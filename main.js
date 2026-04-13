@@ -14,8 +14,8 @@ function getFetch(){
   .then(data => {
     console.log(data)
    document.querySelector('.burgerMenu').innerText = data[randomElement].name
-    document.querySelector('p').innerText = `${data[randomElement].season}`
-    document.querySelector('.epNum').innerText = `${data[randomElement].episode}`
+    document.querySelector('.seasonResult').innerText = `${data[randomElement].season}`
+    document.querySelector('.epResult').innerText = `${data[randomElement].episode}`
     
   })
   .catch((err) => {

@@ -1,13 +1,12 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;
+  
     
   }
   
   body {
     background: beige;
-
-
   }
   
   p {
@@ -26,6 +25,7 @@ section {
 /* KEEP THIS CENTER ALIGNMENT */ 
 h1 {
     font-size: 50px;
+    text-align: center;
 }
 
   h1, .season, .ep {
@@ -41,6 +41,7 @@ h1 {
 
   .burgBtn {
     margin-top: 25px;
+    margin-left: 75px;
     width: 12%;
     padding: 2px 2px 2px 2px;
   }
@@ -53,8 +54,8 @@ h1 {
   .burgerMenu {
     background:#4A4A4A;
     color: white;
-    min-height: 250px;
-    min-width: 70%;
+    height: 250px;
+    width: 70%;
     border: 10px solid #CB4154;
     text-align: center;
     align-items: center;
@@ -62,23 +63,23 @@ h1 {
   }
   
   .statsSection {
+    margin-right: 75px;
     background: #fcdd60;
     border-radius: 10px;
-   max-height: 250px;
-   max-width: 70%;
+    height: 300px;
+    min-width: 20%;
     margin-bottom: 25px;
     border: 10px solid #9ac7e8
   }
 
   
-  p, .burgerMenu, .epNum {
+  p, .burgerMenu, .epResult {
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
   }
 
 
   h1, p, h2, a, h3 {
-    /*border: 2px solid red;*/
     width: 50%;
     display: flex;
     justify-content: center;
