@@ -9,6 +9,11 @@
     background: beige;
   }
   
+  header img {
+    max-width: 100%;
+    width: 550px;
+  
+  }
   p {
     font-size: 25px;
   }
@@ -33,16 +38,21 @@ h1 {
     
   }
  
+  .menuSection {
+max-width: 600px;
+
+
+  }
   .dashboard-container {
     display: flex;
+    flex-wrap: wrap;
   }
-  /*.burgBtn-section {
-    */
+  .burgBtn-section {
+  text-align: center;
+  }
 
   .burgBtn {
     margin-top: 25px;
-    margin-left: 75px;
-    width: 12%;
     padding: 2px 2px 2px 2px;
   }
 
@@ -55,7 +65,8 @@ h1 {
     background:#4A4A4A;
     color: white;
     height: 250px;
-    width: 70%;
+    width: 300px;
+    max-width: 100%;
     border: 10px solid #CB4154;
     text-align: center;
     align-items: center;
@@ -63,10 +74,15 @@ h1 {
   }
   
   .statsSection {
+    display: flex;
+    overflow: auto;
+    height: auto;
+    flex-direction: column;
+
     margin-right: 75px;
     background: #fcdd60;
     border-radius: 10px;
-    height: 300px;
+    /*height: 300px;*/
     min-width: 20%;
     margin-bottom: 25px;
     border: 10px solid #9ac7e8
@@ -76,13 +92,6 @@ h1 {
   p, .burgerMenu, .epResult {
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
-  }
-
-
-  h1, p, h2, a, h3 {
-    width: 50%;
-    display: flex;
-    justify-content: center;
   }
   
   
